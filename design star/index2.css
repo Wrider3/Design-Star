@@ -1,0 +1,68 @@
+/*---------------------------------HEXAGON STYLES-----------------------------------------------------*/
+.hexagon {
+  position: relative;
+  width: 300px; 
+  height: 173.21px;
+  background-color: #64C7CC;
+  margin: 86.60px 0;
+  transform: scale(.85);
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #64C7CC;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #64C7CC;
+}
+/*---------------------------------HEXAGON STYLES END-----------------------------------------------------*/
+
+/*--------------------------------------MY HEX STYLES-----------------------------------------------------*/
+.hexstart {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.hexmid {
+	display: flex;
+	justify-content: center;
+}
+
+.hexend {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.hexrow1 {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	-webkit-transform: translate(5%);
+	-o-transform: translate(5%);
+	-ms-transform: translate(5%);
+}
+
+.hexrow2 {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	-webkit-transform: translate(-5%);
+	-o-transform: translate(-5%);
+	-ms-transform: translate(-5%);
+}

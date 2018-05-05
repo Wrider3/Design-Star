@@ -126,11 +126,17 @@ header {
 	padding: 0;
 }
 
-.header_angle {
+.header:after {
 	height: 200px;
 	background: linear-gradient(to left bottom, #282828 50%, #c0d5ff 50%);
 	z-index: -1;
 }
+
+/*.header_angle {
+	height: 200px;
+	background: linear-gradient(to left bottom, #282828 50%, #c0d5ff 50%);
+	z-index: -1;
+}*/
 
 hr {
 	transform: rotate(15deg);
